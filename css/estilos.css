@@ -27,6 +27,8 @@ header{
     .logo img{
     width: 70px;
     height: 70px;}
+    .barra{
+    flex-grow: 0;}
 .barra a:hover{
     color: black;
     background-color: #999999;
