@@ -1,0 +1,186 @@
+.inicio{
+    @extend %display;
+    p{
+        text-align: justify;
+        font-size: 20px;
+        padding: 60px;
+    }
+    div{
+        h1{
+            font-size: 60px;
+            padding: 60px;
+            font-weight: bold;
+        }
+    }
+    .imagen{
+        img{
+            height: 500px;
+            width: 1000px;
+            border-radius: 50px;
+            box-shadow: 0 0 20px $color1;
+        }
+    }
+    .introduccion{
+        @extend %display;
+        h2{
+            font-size: 30px;
+            padding-top: 40px;
+        }
+    }
+    .imageninicio{
+        img{
+            height: 300px;
+            width: 400px;
+            border-radius: 50px;
+            box-shadow: 0 0 20px $color1;
+        }
+    }
+}
+.int{
+    .integrantes{
+        @include display2 (flex, center,center,);
+        h1{
+            font-size: 60px;
+            padding: 60px;
+            font-weight: bold;
+        }
+    }
+    .sec1{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between; 
+        img{
+            display: flex;
+            justify-content: start;
+            height: 300px;
+            width: 400px;
+            border-radius: 50px;    
+            box-shadow: 0 0 20px $color1; 
+        }
+        div{
+            @extend %display1;
+        }
+    }
+    .sec2{
+        padding: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between; 
+        img{
+            display: flex;
+            justify-content: end;
+            height: 300px;
+            width: 400px;
+            border-radius: 50px;    
+            box-shadow: 0 0 20px $color1; 
+        }
+        div{
+            @extend %display1;
+        }
+    }
+}
+.biogr{
+    @extend %display;
+    .biografia{
+        h1{
+            font-size: 60px;
+            padding: 60px;
+            font-weight: bold;
+        }
+    }
+    .biogr1{
+        img{
+            height: 500px;
+            width: 1000px;
+            border-radius: 50px;    
+            box-shadow: 0 0 20px $color1;
+        }
+    }
+    p{
+        font-size: 20px;
+        padding: 50px;
+        text-align: justify;
+    }
+    .biogr2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+            img{
+            height: 400px;
+            width: 400px;
+            border-radius: 50px;
+            box-shadow: 0 0 20px $color1;
+            margin: 25px;
+        }
+    }
+    .biogr4{
+        img{
+            height: 500px;
+            width: 1000px;
+            border-radius: 50px;
+            box-shadow: 0 0 20px $color1;
+        }
+    }
+}
+
+.discos{
+    @extend %display;
+    h1{
+        font-size: 60px;
+        padding: 60px;
+        font-weight: bold;
+    }
+}
+.imgdiscos{
+    @include display3 (flex, row, wrap, space-evenly);
+    text-align: center;
+    padding: 10px;
+    article{
+        img{
+            height: 400px;
+            width: 400px;
+            border-radius: 50px;
+            box-shadow: 0 0 20px $color1;
+        }
+        h4{
+            font-size: 20px;
+        }
+    }
+}
+.proximosshows{
+    .prox1{
+        @extend %display;
+        h1{
+            font-size: 60px;
+            padding: 60px;
+            font-weight: bold;
+        }
+    }
+    .prox2{
+        @include display3 (flex, row, wrap, center);
+        h2{
+            font-size: 25px;
+            font-weight: bold;
+            background-color: $color2;
+            border-radius: 20px;
+            padding: 5px;
+            box-shadow: 0 0 20px $color1;
+        }
+    }
+    .prox3{
+        @include display3 (inline-flex, row, wrap, space-evenly);
+        img{
+            width: 410px;
+            height: 410px;
+            border-radius: 50px;
+            box-shadow: 0 0 20px $color1;
+            margin: 10px;
+            }
+        }
+    }
+main{
+    height: auto;
+    width: 100%;
+    background-color: $color2;
+    color: $color4;
+}

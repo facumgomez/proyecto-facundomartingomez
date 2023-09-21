@@ -1,432 +1,497 @@
-/* INICIO */
-*{
-    margin: 0;
-    padding: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    transition: scroll;}
-html{
-    scroll-behavior: smooth;}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: scroll;
+}
 
-/* HEADER */
-header{
-    background-color: #20124D;} 
-    header nav div ul li a{
-    color: white !important;
-    text-transform: uppercase;}
-    .logo{
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    font-size: 10px;
-    align-items: center;
-    font-weight: bold;}
-    .logo img{
-    width: 70px;
-    height: 70px;}
-    .barra{
-    flex-grow: 0;}
-.barra a:hover{
-    color: black;
-    background-color: #999999;
-    border: 10px solid #999999;
-    box-shadow: 0 0 8px #999999;
-    border-radius: 200px;
-    transition: 1s ease-out;}
-main{
-    height: auto;
-    width: 100%;
-    background-color:#999999;
-    color: black;}
+html {
+  scroll-behavior: smooth;
+}
 
-/* INICIO */
-.inicio{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;}
-    .inicio p{
-    text-align: justify;
-    font-size: 20px;
-    padding: 60px;}
-    .inicio h1{
-    font-size: 60px;
-    padding: 60px;
-    font-weight: bold}
-.imagen img{
-    height: 500px;
-    width: 1000px;
-    border-radius: 50px;
-    box-shadow: 0 0 20px #20124D;}
-.imageninicio img{
-    height: 300px;
-    width: 400px;
-    border-radius: 50px;
-    box-shadow: 0 0 20px #20124D;}
-.introduccion{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;}
-    .introduccion h2{
-    font-size: 30px;
-    padding-top: 40px;}
+.proximosshows .prox1, .discos, .biogr, .inicio .introduccion, .inicio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-/* INTEGRANTES */
+.int .sec2 div, .int .sec1 div {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 550px;
+  flex-direction: column;
+  text-align: left;
+}
+.int .sec2 div h4, .int .sec1 div h4 {
+  font-size: 50px;
+}
+
+header {
+  background-color: #20124D;
+}
+header nav div .titulo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+header nav div .titulo .logo {
+  width: 70px;
+  height: 70px;
+}
+header nav div .titulo h2 {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+}
+header nav div .barra {
+  flex-grow: 0;
+}
+header nav div .barra a:hover {
+  color: rgb(8, 8, 8);
+  background-color: #999999;
+  border: 0 10px solid #999999;
+  box-shadow: 0 0 8px #999999;
+  border-radius: 50px;
+  transition: 1s ease-out;
+}
+header nav div .barra ul li .link {
+  color: rgb(255, 255, 255) !important;
+  text-transform: uppercase;
+}
+
+.inicio p {
+  text-align: justify;
+  font-size: 20px;
+  padding: 60px;
+}
+.inicio div h1 {
+  font-size: 60px;
+  padding: 60px;
+  font-weight: bold;
+}
+.inicio .imagen img {
+  height: 500px;
+  width: 1000px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #20124D;
+}
+.inicio .introduccion h2 {
+  font-size: 30px;
+  padding-top: 40px;
+}
+.inicio .imageninicio img {
+  height: 300px;
+  width: 400px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #20124D;
+}
+
 .int .integrantes {
-    display: flex;
-    align-items: center;
-    justify-content: center;}
-    .integrantes h1{
-    font-size: 60px;
-    padding: 60px;
-    font-weight: bold;}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.int .integrantes h1 {
+  font-size: 60px;
+  padding: 60px;
+  font-weight: bold;
+}
 .int .sec1 {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between; }
-    .int .sec1 img {
-    display: flex;
-    justify-content: start;
-    height: 300px;
-    width: 400px;
-    border-radius: 50px;    
-    box-shadow: 0 0 20px #20124D; }
-    .int .sec1 div {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    margin-left: 15px;
-    font-size: 550px !important;
-    flex-direction: column;
-    text-align: left;}
-    .int .sec1 div h4{
-    font-size: 50px;}
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.int .sec1 img {
+  display: flex;
+  justify-content: start;
+  height: 300px;
+  width: 400px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #20124D;
+}
 .int .sec2 {
-    padding: 20px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;}
-    .int .sec2 img {
-    display: flex;
-    justify-content: end;
+  padding: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.int .sec2 img {
+  display: flex;
+  justify-content: end;
+  height: 300px;
+  width: 400px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #20124D;
+}
+.biogr .biografia h1 {
+  font-size: 60px;
+  padding: 60px;
+  font-weight: bold;
+}
+.biogr .biogr1 img {
+  height: 500px;
+  width: 1000px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #20124D;
+}
+.biogr p {
+  font-size: 20px;
+  padding: 50px;
+  text-align: justify;
+}
+.biogr .biogr2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.biogr .biogr2 img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #20124D;
+  margin: 25px;
+}
+.biogr .biogr4 img {
+  height: 500px;
+  width: 1000px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #20124D;
+}
+
+.discos h1 {
+  font-size: 60px;
+  padding: 60px;
+  font-weight: bold;
+}
+
+.imgdiscos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px;
+}
+.imgdiscos article img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #20124D;
+}
+.imgdiscos article h4 {
+  font-size: 20px;
+}
+
+.proximosshows .prox1 h1 {
+  font-size: 60px;
+  padding: 60px;
+  font-weight: bold;
+}
+.proximosshows .prox2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.proximosshows .prox2 h2 {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #999999;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: 0 0 20px #20124D;
+}
+.proximosshows .prox3 {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.proximosshows .prox3 img {
+  width: 410px;
+  height: 410px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #20124D;
+  margin: 10px;
+}
+
+main {
+  height: auto;
+  width: 100%;
+  background-color: #999999;
+  color: rgb(8, 8, 8);
+}
+
+.tgaleria h2 {
+  text-align: center;
+  box-shadow: inset 0 0 20px rgb(8, 8, 8);
+  border: 1px solid rgb(8, 8, 8);
+  background-color: #20124D;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 337px);
+}
+.galeria .item img {
+  width: 337px;
+  height: 337px;
+}
+.galeria .item img:hover {
+  transition: all 0.5s;
+  transform: scale(0.9);
+}
+
+footer {
+  flex: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background-color: #20124D;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+}
+footer section a {
+  padding: 20px;
+}
+footer section a img {
+  width: 60px;
+  height: 60px;
+}
+footer p {
+  font-size: 20px;
+}
+
+.subir {
+  height: 50px;
+  width: 50px;
+  background-color: #20124D;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 40px;
+  box-shadow: 0 0 20px #20124D;
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 15px;
+}
+.subir img {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 520px) {
+  .inicio div h1 {
+    text-align: center;
+    font-size: 23px;
+    padding: 25px;
+  }
+  .inicio .imagen img {
+    width: 300px;
     height: 300px;
-    width: 400px;
-    border-radius: 50px;    
-    box-shadow: 0 0 20px #20124D;}
-    .int .sec2 div {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    margin-left: 15px;
-    flex-direction: column;
-    text-align: right; }
-    .int .sec2 div h4{
-    font-size: 50px;}
-.galeria{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 337px);}
-    .item{
-    transition: all 0.5s;}
-    .item:hover{
-    transform: scale(0.9);}
-    .item img {
-    width: 337px;
-    height: 337px;}
-.tgaleria h2{
+  }
+  .inicio .introduccion h2 {
+    padding: 20px;
+    font-size: 15px;
+  }
+  .inicio p {
+    padding: 20px;
+    font-size: 15px;
+  }
+  .inicio .imageninicio {
+    padding: 28px;
     text-align: center;
-    box-shadow:inset 0 0 20px black;
-    border:1px solid black;
-    background-color: #20124D;
-    color: white;
-    padding: 15px;}
-
-/* BIOGRAFIA */
-.biogr{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;}
-.biogr p{
-    font-size: 20px;
-    padding: 50px;
-    text-align: justify;}
-.biografia h1{
-    font-size: 60px;
-    padding: 60px;
-    font-weight: bold;}
-.biogr1 img{
+  }
+  .inicio .imageninicio img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .inicio div h1 {
+    font-size: 50px;
+  }
+  .inicio .imagen img {
     height: 500px;
-    width: 1000px;
-    border-radius: 50px;    
-    box-shadow: 0 0 20px #20124D;}
-.biogr2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;}
-    .biogr2 img{
-    height: 400px;
-    width: 400px;
-    border-radius: 50px;
-    box-shadow: 0 0 20px #20124D;
-    margin: 25px;}
-    .biogr4{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;}
-    .biogr4 img{
-    height: 500px;
-    width: 1000px;
-    border-radius: 50px;
-    box-shadow: 0 0 20px #20124D;}
-
-/* DISCOS */
-.discos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;}
-    .discos h1{
-    font-size: 60px;
-    padding: 60px;
-    font-weight: bold;}
-.imgdiscos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-    padding: 10px;}
-    .imgdiscos img{
-    height: 400px;
-    width: 400px;
-    border-radius: 50px;
-    box-shadow: 0 0 20px #20124D;}
-    .imgdiscos h4{
-    font-size: 20px;}
-
-/* PROXIMOS SHOWS */
-.proximosshows{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;}
-    .proximosshows h1{
-    font-size: 60px;
-    padding: 60px;
-    font-weight: bold;}
-.prox1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;}
-    .prox1 h2{
-    font-size: 25px;
-    font-weight: bold;
-    background-color:#999999b2;
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: 0 0 20px #20124D;}
-.prox2{
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;}
-    .prox2 img{
-    width: 410px;
-    height: 410px;
-    border-radius: 50px;
-    box-shadow: 0 0 20px #20124D;
-    margin: 10px;}
-
-/* FOOTER */
-footer{
+    width: 700px;
+  }
+  .inicio .imageninicio {
     flex: none;
+    padding: 15px;
+  }
+  .inicio .imageninicio img {
+    width: 240px;
+    height: 240px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .int .integrantes h1 {
+    font-size: 23px;
+  }
+  .int .sec1 {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .int .sec1 div h4 {
+    font-size: 15px;
+  }
+  .int .sec1 img {
     width: 100%;
+    height: 240px;
+  }
+  .int .sec2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .int .sec2 div h4 {
+    font-size: 15px;
+  }
+  .int .sec2 img {
+    width: 100%;
+    height: 240px;
+  }
+  .galeria {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(16, 319px);
+    text-align: center;
+  }
+  .galeria .item img {
+    width: 317px;
+    height: 317px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .int .integrantes h1 {
+    font-size: 50px;
+  }
+  .int .sec1 div h4 {
+    font-size: 30px;
+  }
+  .int .sec2 div h4 {
+    font-size: 30px;
+  }
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 330px);
+    text-align: center;
+    text-align: center;
+  }
+  .galeria .item img {
     height: 100%;
-    background-color:#20124D;
-    color: white;
-    text-align: center;
-    padding: 20px;}
-    footer p{
-    font-size: 20px;}
-    footer section a{
-    padding: 20px;}
-    footer section a img{
-    width: 60px;
-    height: 60px;}
+    width: 383px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .biogr .biografia h1 {
+    font-size: 23px;
+  }
+  .biogr .biogr1 img {
+    width: 260px;
+    height: 280px;
+  }
+  .biogr p {
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  .biogr .biogr2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .biogr2 p {
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  .biogr .biogr2 img {
+    width: 260px;
+    height: 280px;
+  }
+  .biogr .biogr4 img {
+    width: 260px;
+    height: 280px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .biogr .biografia h1 {
+    font-size: 50px;
+  }
+  .biogr .biogr1 img {
+    height: 500px;
+    width: 700px;
+  }
+  .biogr .biogr2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .biogr .biogr2 img {
+    width: 500px;
+    height: 400px;
+  }
+  .biogr .biogr4 img {
+    width: 700px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .discos h1 {
+    font-size: 23px;
+  }
+  .imgdiscos article img {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .discos h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .proximosshows .prox1 h1 {
+    font-size: 23px;
+    padding: 25px;
+  }
+  .proximosshows .prox2 h2 {
+    font-size: 13px;
+  }
+  .proximosshows .prox2 img {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .proximosshows .prox1 h1 {
+    font-size: 50px;
+  }
+  .proximosshows .prox2 h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  footer section a {
+    padding: 2px;
+  }
+  footer section a img {
+    width: 26px;
+    height: 26px;
+  }
+  footer p {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
 
-.subir{
-    height: 50px;
-    width: 50px;
-    background-color: #20124D;
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-    text-align: center;
-    line-height: 40px;
-    font-size: 40px;
-    box-shadow: 0 0 20px #20124D;
-    border: 1px solid black;
-    border-radius: 15px;}
-    .subir img{
-    width: 40px;
-    height: 40px;}
-
-/* RESPONSIVE INICIO */
-@media screen and (max-width: 425px) {
-    .inicio div h1 {
-        text-align: center;
-        font-size: 23px;
-        padding: 25px;} 
-    .imagen img{
-        width: 300px;
-        height: 300px;} 
-    .introduccion h2{
-        padding: 20px;
-        font-size: 15px;}
-    .inicio p{
-        padding: 20px;
-        font-size: 15px;}
-    .imageninicio{
-        padding: 28px;
-        text-align: center;}
-    .imageninicio img{
-        width:250px;
-        height: 250px;} }
-@media (min-width: 768px) and (max-width: 1024px){
-    .inicio div h1 {
-        font-size: 50px;}
-    .imagen img{
-        height: 500px;
-        width: 700px;} 
-    .imageninicio{
-        flex: none;
-        padding: 15px;}
-    .imageninicio img{
-        width:240px;
-        height: 240px;}} 
-
-/* RESPONSIVE INTEGRANTES */
-@media screen and (max-width: 540px) {
-    .int div h1{
-        font-size: 23px;}
-    .int .sec1{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;}
-        .int .sec1 div h4{
-        font-size: 15px;}
-        .int .sec1 img {
-        width: 100%;
-        height: 240px; }
-    .int .sec2{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;}
-        .int .sec2 div h4{
-        font-size: 15px}
-        .int .sec2 img {
-        width: 100%;
-        height: 240px;}
-    .galeria{
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(16, 319px);
-        text-align: center;}
-    .item img {
-        width: 317px;
-        height: 317px;}}
-
-@media (min-width: 768px) and (max-width: 1024px){
-    .int div h1 {
-        font-size: 50px;}
-    .int .sec1 h4{
-        font-size: 30px;}
-    .int .sec2 h4{
-        font-size: 30px;}
-    .galeria{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(8, 330px);
-        text-align: center;
-        text-align: center;}
-    .item img{
-        height: 100%;
-        width: 383px;}}
-
-/* RESPONSIVE BIOGRAFIA */
-@media screen and (max-width: 425px) {
-    .biogr div h1 {
-        font-size: 23px;} 
-    .biogr img{
-        width: 260px;
-        height: 280px;} 
-    .biogr p{
-        font-size: 15px;
-        flex-wrap: wrap;}
-    .biogr2{
-        flex-wrap: wrap;
-        justify-content: center;}
-    .biogr2 p{
-        font-size: 15px;
-        flex-wrap: wrap;}}
-
-@media (min-width: 768px) and (max-width: 1024px){
-    .biogr div h1 {
-        font-size: 50px;} 
-    .biogr1 img{
-        height: 500px;
-        width: 700px;} 
-    .biogr2{
-        flex-wrap: wrap;
-        justify-content: center;}
-    .biogr2 img{
-        width: 500px;
-        height: 400px;} 
-    .biogr4 img{
-        width: 700px;
-        height: 500px;}}
-
-/* RESPONSIVE DISCOS */
-@media screen and (max-width: 425px) {
-    .discos h1 {
-        font-size: 23px;} 
-    .imgdiscos img{
-        height: 300px;
-        width: 300px;}}
-@media (min-width: 768px) and (max-width: 1024px){
-    .discos h1 {
-        font-size: 50px;}}
-
-/* RESPONSIVE PROXIMOS SHOWS */
-@media screen and (max-width: 425px) {
-    .proximosshows h1{
-        font-size: 23px;
-        padding: 25px;} 
-    .prox1 h2{
-        font-size: 13px;}
-    .prox2 img{
-        height: 300px;
-        width: 300px;}}
-@media (min-width: 768px) and (max-width: 1024px){
-    .proximosshows h1{
-        font-size: 50px;} 
-    .prox1 h2{
-        font-size: 20px;}}
-
-/* RESPONSIVE FOOTER */
-@media screen and (max-width: 1310px) {
-    footer section a img {
-        width: 26px;
-        height: 26px;} 
-    footer p{
-        font-size: 15px;
-        padding: 10px;}
-    footer section a{
-        padding: 2px;}}
+/*# sourceMappingURL=estilos.css.map */

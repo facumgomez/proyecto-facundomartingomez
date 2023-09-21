@@ -1,0 +1,157 @@
+@media screen and (max-width: 520px) {
+    .inicio div h1 {
+        text-align: center;
+        font-size: 23px;
+        padding: 25px;} 
+    .inicio .imagen img{
+        width: 300px;
+        height: 300px;} 
+    .inicio .introduccion h2{
+        padding: 20px;
+        font-size: 15px;}
+    .inicio p{
+        padding: 20px;
+        font-size: 15px;}
+    .inicio .imageninicio{
+        padding: 28px;
+        text-align: center;}
+    .inicio .imageninicio img{
+        width:250px;
+        height: 250px;} }
+@media (min-width: 768px) and (max-width: 1024px){
+    .inicio div h1 {
+        font-size: 50px;}
+    .inicio .imagen img{
+        height: 500px;
+        width: 700px;} 
+    .inicio .imageninicio{
+        flex: none;
+        padding: 15px;}
+    .inicio .imageninicio img{
+        width:240px;
+        height: 240px;}} 
+
+
+@media screen and (max-width: 520px) {
+    .int .integrantes h1{
+        font-size: 23px;}
+    .int .sec1{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;}
+        .int .sec1 div h4{
+        font-size: 15px;}
+        .int .sec1 img {
+        width: 100%;
+        height: 240px; }
+    .int .sec2{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;}
+        .int .sec2 div h4{
+        font-size: 15px}
+        .int .sec2 img {
+        width: 100%;
+        height: 240px;}
+    .galeria{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(16, 319px);
+        text-align: center;}
+    .galeria .item img {
+        width: 317px;
+        height: 317px;}}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .int .integrantes h1 {
+        font-size: 50px;}
+    .int .sec1 div h4{
+        font-size: 30px;}
+    .int .sec2 div h4{
+        font-size: 30px;}
+    .galeria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 330px);
+        text-align: center;
+        text-align: center;}
+    .galeria .item img{
+        height: 100%;
+        width: 383px;}}
+
+
+@media screen and (max-width: 520px) {
+    .biogr .biografia h1 {
+        font-size: 23px;} 
+    .biogr .biogr1 img{
+        width: 260px;
+        height: 280px;} 
+    .biogr p{
+        font-size: 15px;
+        flex-wrap: wrap;}
+    .biogr .biogr2{
+        flex-wrap: wrap;
+        justify-content: center;}
+    .biogr2 p{
+        font-size: 15px;
+        flex-wrap: wrap;}
+    .biogr .biogr2 img{
+        width: 260px;
+        height: 280px;} 
+    .biogr .biogr4 img{
+        width: 260px;
+        height: 280px;} 
+    
+    }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .biogr .biografia h1 {
+        font-size: 50px;} 
+    .biogr .biogr1 img{
+        height: 500px;
+        width: 700px;} 
+    .biogr .biogr2{
+        flex-wrap: wrap;
+        justify-content: center;}
+    .biogr .biogr2 img{
+        width: 500px;
+        height: 400px;} 
+    .biogr .biogr4 img{
+        width: 700px;
+        height: 500px;}}
+
+
+@media screen and (max-width: 520px) {
+    .discos h1 {
+        font-size: 23px;} 
+    .imgdiscos article img{
+        height: 300px;
+        width: 300px;}}
+@media (min-width: 768px) and (max-width: 1024px){
+    .discos h1 {
+        font-size: 50px;}}
+
+
+@media screen and (max-width: 520px) {
+    .proximosshows .prox1 h1{
+        font-size: 23px;
+        padding: 25px;} 
+    .proximosshows .prox2 h2{
+        font-size: 13px;}
+    .proximosshows .prox2 img{
+        height: 300px;
+        width: 300px;}}
+@media (min-width: 768px) and (max-width: 1024px){
+    .proximosshows .prox1 h1{
+        font-size: 50px;} 
+    .proximosshows .prox2 h2{
+        font-size: 20px;}}
+
+
+@media screen and (max-width: 1024px) {
+    footer section a{
+        padding: 2px;}
+    footer section a img {
+        width: 26px;
+        height: 26px;} 
+    footer p{
+        font-size: 15px;
+        padding: 10px;}}

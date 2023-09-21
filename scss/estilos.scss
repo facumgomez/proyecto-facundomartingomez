@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: scroll;}
+html{
+    scroll-behavior: smooth;}
+@import "./base/variables";
+@import "./components/header";
+@import "./components/main";
+@import "./components/galeria";
+@import "./components/footer";
+@import "./base/up";
+@import "./base/mq"
