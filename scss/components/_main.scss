@@ -1,3 +1,9 @@
+main{
+    height: auto;
+    width: 100%;
+    background-color: $color2;
+    color: $color4;
+}
 .inicio{
     @extend %display;
     p{
@@ -178,9 +184,3 @@
             }
         }
     }
-main{
-    height: auto;
-    width: 100%;
-    background-color: $color2;
-    color: $color4;
-}
