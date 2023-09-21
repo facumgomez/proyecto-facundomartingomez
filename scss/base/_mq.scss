@@ -39,22 +39,10 @@
 @media screen and (max-width: 766px) {
     .int .integrantes h1{
         font-size: 23px;}
-    .int .sec1{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;}
         .int .sec1 div h4{
         font-size: 15px;}
-        .int .sec1 img {
-        height: 240px; }
-    .int .sec2{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;}
         .int .sec2 div h4{
         font-size: 15px}
-        .int .sec2 img {
-        height: 240px;}
     .galeria{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(16, 319px);
@@ -62,16 +50,20 @@
     .galeria .item img {
         width: 317px;
         height: 317px;}}
-@media screen and (max-width: 421px) {
+@media screen and (max-width: 560px) {
+    .int .sec1{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;}
     .int .sec1 img{
         width: 100%;}
+    .int .sec2{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;}
     .int .sec2 img{
         width: 100%;}}
-@media (min-width: 766px) and (max-width: 420px){
-    .int .sec1 img{
-        width: 200px;}
-    .int .sec2 img{
-        width: 200px;}}
+
 @media (min-width: 768px) and (max-width: 1060px){
     .int .integrantes h1 {
         font-size: 50px;}
@@ -151,9 +143,9 @@
         padding: 25px;} 
     .proximosshows .prox2 h2{
         font-size: 13px;}
-    .proximosshows .prox2 img{
-        height: 300px;
-        width: 300px;}}
+    .proximosshows .prox3 a img{
+        height: 290px;
+        width: 290px;}}
 @media (min-width: 768px) and (max-width: 1060px){
     .proximosshows .prox1 h1{
         font-size: 50px;} 
